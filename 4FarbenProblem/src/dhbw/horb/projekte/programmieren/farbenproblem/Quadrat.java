@@ -5,7 +5,9 @@ public class Quadrat extends Feld{
 	private int y;
 	
 	
-	
+	public Quadrat(int id){
+		super(id);
+	}
 	
 	
 	

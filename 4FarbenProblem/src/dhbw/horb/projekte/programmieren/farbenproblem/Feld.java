@@ -9,12 +9,14 @@ public abstract class Feld {
 	private Farbe farbe;
 	private List<Feld> nachbarn = new ArrayList<Feld>();
 	
+	public Feld(int id) {
+		this.id = id;
+	}
+	
 	public int getId() {
 		return id;
 	}
-	public void setId(int id) {
-		this.id = id;
-	}
+	
 	public Farbe getFarbe() {
 		return farbe;
 	}
