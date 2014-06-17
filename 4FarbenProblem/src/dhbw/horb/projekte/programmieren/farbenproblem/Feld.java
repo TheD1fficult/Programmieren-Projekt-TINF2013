@@ -14,4 +14,6 @@ public class Feld {
 	public void GITTEST() {
 
 	}
+	
+	// Hier stehen neue Code Zeilen!
 }
