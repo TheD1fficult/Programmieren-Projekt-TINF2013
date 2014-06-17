@@ -10,4 +10,8 @@ public class Feld {
 	public int getId() {
 		return id;
 	}
+
+	public void GITTEST() {
+
+	}
 }
