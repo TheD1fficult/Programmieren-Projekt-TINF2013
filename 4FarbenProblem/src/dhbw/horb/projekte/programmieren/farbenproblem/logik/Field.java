@@ -7,6 +7,7 @@ public abstract class Field {
 	private Id id = new Id();
 	private Color color;
 	private List<Field> neighbor = new ArrayList<Field>();
+	private List<Vector> vectors = new ArrayList<Vector>();
 
 	public Color getColor() {
 		return color;
@@ -29,5 +30,6 @@ public abstract class Field {
 	public Id getId() {
 		return id;
 	}
+	
 
 }
