@@ -1,17 +1,8 @@
-package dhbw.horb.projekte.programmieren.farbenproblem;
+package dhbw.horb.projekte.programmieren.farbenproblem.logik;
 
-public class Quadrat extends Feld{
+public class Point {
 	private int x;
 	private int y;
-	
-	
-	public Quadrat(int id){
-		super(id);
-	}
-	
-	
-	
-	
 	public int getX() {
 		return x;
 	}
@@ -24,6 +15,4 @@ public class Quadrat extends Feld{
 	public void setY(int y) {
 		this.y = y;
 	}
-	
-	
 }
